@@ -1,318 +1,224 @@
-# <div align="center">π<br>Pip Learn</div>
+<div align="center">
+
+# Pip Learn
 
 <p align="center">
-  <strong>Python, one concept at a time.</strong>
+  <em>Python, one concept at a time.</em>
 </p>
 
 <p align="center">
-  An editorial Python learning platform engineered with Python and NiceGUI, aligning theoretical depth with practical mastery for <strong>Marwadi University — Programming with Python (01AP0303)</strong>.
+  <img src="https://img.shields.io/badge/Python-3.10%2B-2A4D69?style=flat-square" alt="Python 3.10+" />
+  <img src="https://img.shields.io/badge/NiceGUI-3.18%2B-4B86B4?style=flat-square" alt="NiceGUI 3.18+" />
+  <img src="https://img.shields.io/badge/FastAPI-0.115%2B-008080?style=flat-square" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Database-SQLite%20%2F%20SQLAlchemy-637A9F?style=flat-square" alt="Database" />
+  <img src="https://img.shields.io/badge/Tests-48%20Passing-2D6A4F?style=flat-square" alt="Tests" />
+  <img src="https://img.shields.io/badge/Syllabus-MU%2001AP0303-1C2833?style=flat-square" alt="Course 01AP0303" />
+</p>
+
+<br>
+
+<p align="center">
+  <img src="docs/assets/art-01-the-beginning.jpg" width="100%" alt="Pip Learn — The Beginning" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat&logo=python&logoColor=white" alt="Python 3.10+" />
-  <img src="https://img.shields.io/badge/NiceGUI-3.18%2B-1E293B?style=flat&logoColor=white" alt="NiceGUI 3.18+" />
-  <img src="https://img.shields.io/badge/FastAPI-0.115%2B-009688?style=flat&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/SQLite-SQLAlchemy_2.0-003B57?style=flat&logo=sqlite&logoColor=white" alt="SQLite / SQLAlchemy" />
-  <img src="https://img.shields.io/badge/Security-Argon2id-10B981?style=flat" alt="Argon2id Security" />
-  <img src="https://img.shields.io/badge/Tests-48%20Passed-2D6A4F?style=flat&logo=pytest&logoColor=white" alt="48 Tests Passing" />
-  <img src="https://img.shields.io/badge/Curriculum-MU_01AP0303-4F83BC?style=flat" alt="Curriculum 01AP0303" />
-  <img src="https://img.shields.io/badge/License-MIT-gray?style=flat" alt="MIT License" />
+  <sub><em>ART-01 — The Beginning. An editorial learning studio designed to cultivate authentic mental models of computation.</em></sub>
 </p>
 
----
+</div>
 
-## Table of Contents
-
-1. [What is Pip Learn?](#1-what-is-pip-learn)
-2. [Learning Methodology](#2-learning-methodology)
-3. [How Python Powers Pip Learn](#3-how-python-powers-pip-learn)
-4. [System Architecture](#4-system-architecture)
-5. [Product Features](#5-product-features)
-6. [Course Structure](#6-course-structure)
-7. [Screenshots and Artwork](#7-screenshots-and-artwork)
-8. [Technology Stack](#8-technology-stack)
-9. [Installation and Local Development](#9-installation-and-local-development)
-10. [Testing and Quality Assurance](#10-testing-and-quality-assurance)
-11. [Future Improvements](#11-future-improvements)
-12. [Credits and Academic Alignment](#12-credits-and-academic-alignment)
+<br>
 
 ---
 
-## 1. What is Pip Learn?
+<br>
 
-Modern introductory computer science education is frequently hindered by two extremes: dense, academic slides that detach syntax from real-world execution, or gamified tutorials that encourage superficial memorization without developing mental models of computation.
+## What is Pip Learn?
 
-**Pip Learn** bridges this gap. It is an editorial, distraction-free Python learning platform that treats code as a craft. Rather than overwhelming students with disjointed code snippets, Pip Learn structures each topic into an intentional, self-paced laboratory. Every concept is grounded in concrete execution, allowing learners to witness cause and effect immediately.
+Modern introductory programming courses frequently suffer from a persistent pedagogical dilemma: academic curricula often present syntax through disconnected slides and abstract notation, while online tutorials foster passive memorization through trivial code-along exercises. When confronted with unassisted problem solving, students often struggle because they lack an intuitive mental model of state, memory references, and control flow.
 
-### Key Educational Principles
+**Pip Learn** was created to resolve this disparity.
 
-* **Mental Models Over Syntax Memorization:** Beginners learn *why* Python behaves the way it does—how variables reference memory, how execution moves through control flow frames, and how data structures organize information.
-* **Calm, Focused Interface:** The user experience draws inspiration from fine book typography and classical art, removing distracting banners, gamified streaks, and artificial timers.
-* **Immediate Verified Feedback:** Code is not simply checked for keyword matches; it is executed inside an isolated sandbox against multi-case functional assertions with tailored diagnostic feedback.
-* **Academic Rigor:** Built specifically to satisfy and exceed the **Marwadi University 01AP0303 (Programming with Python)** syllabus across 8 comprehensive modules, 50 detailed lessons, and 45 contact hours.
+Engineered as a cohesive, pure-Python educational environment, Pip Learn provides an editorial, distraction-free space where software development is explored as a reasoned craft. Every lesson isolates a single concept, anchors it in clear prose, provides visual instruction, invites open experimentation in a live sandbox, validates understanding with automated multi-case tests, and solidifies retention through diagnostic checkpoints.
 
----
+The curriculum is structured around the university syllabus for **Programming with Python (Course Code: 01AP0303)** at **Marwadi University**, delivering 45 contact hours across 8 foundational modules and 50 structured lessons.
 
-## 2. Learning Methodology
-
-Every lesson in Pip Learn follows a consistent, pedagogically proven 5-stage progression designed to transition the learner from conceptual understanding to verified independent execution:
-
-```
-┌─────────┐     ┌─────────┐     ┌────────────┐     ┌──────────┐     ┌─────────┐
-│ 1. READ │ ──> │ 2.WATCH │ ──> │3.EXPERIMENT│ ──> │4.PRACTICE│ ──> │ 5.CHECK │
-└─────────┘     └─────────┘     └────────────┘     └──────────┘     └─────────┘
-```
-
-1. **Stage 1 — Read (Conceptual Foundation):**
-   * Clear, prose-driven explanation of the concept without unnecessary technical jargon.
-   * Annotated diagrams, execution flowcharts, and highlighted syntax illustrations.
-   * Identified common beginner mistakes and explanations of why they occur.
-2. **Stage 2 — Watch (Curated Visual Demonstration):**
-   * Verified, high-quality video instruction embedded inside a stable 16:9 container.
-   * Introduces top-tier engineering educators (including Bro Code for core basics and Corey Schafer for deep dive topics) without layout shifts or intrusive third-party ads.
-   * Direct timestamps and chapter summaries aligned with the lesson objectives.
-3. **Stage 3 — Experiment (Interactive Sandbox):**
-   * A full dark-themed, live code editor pre-loaded with runnable sample code.
-   * Safe execution environment that displays standard output, return values, and execution runtime in milliseconds.
-   * Learners can modify variables, break assumptions, and observe immediate terminal outputs.
-4. **Stage 4 — Practice (Hands-on Challenge):**
-   * An unassisted coding problem designed to test synthesis of the lesson's core concept.
-   * Automated multi-case evaluation checking both standard output and functional constraints.
-   * Intelligent hint progression that provides clues without revealing the solution.
-5. **Stage 5 — Check (Mastery Certification):**
-   * Conceptual multiple-choice diagnostic questions testing understanding of edge cases.
-   * Immediate explanatory feedback upon submission.
-   * Automatically calculates mastery and updates the learner's academic progress record in SQLite.
+<br>
 
 ---
 
-## 3. How Python Powers Pip Learn
+<br>
 
-Pip Learn is not merely an application *for* learning Python—**it is engineered entirely in Python from top to bottom**. Python serves as the user interface layer, the web server, the database ORM, the execution engine, and the testing framework.
+## The Learning Experience
 
-```
-                                  PYTHON EVERYWHERE
-┌─────────────────────────────────────────────────────────────────────────────────┐
-│ UI & Web: NiceGUI + FastAPI + Starlette (Pure Python UI Components & Routes)   │
-│ Persistence: SQLAlchemy 2.0 ORM + SQLite (Relational Student State Models)      │
-│ Security: Argon2id Password Hashing (argon2-cffi) + Session Authentication      │
-│ Execution Engine: Subprocess Sandbox + AST Inspection + Output Capture          │
-│ Curriculum: Typed Python Data Classes + Dependency Catalogs + Validations       │
-│ Testing: Pytest + Playwright Browser Automation (100% Python Test Suite)        │
-└─────────────────────────────────────────────────────────────────────────────────┘
-```
+To transition learners from conceptual awareness to independent mastery, every lesson in Pip Learn adheres to a five-stage pedagogical progression:
 
-### 1. Python-Driven User Interface (NiceGUI & FastAPI)
-Instead of relying on a fragmented JavaScript frontend framework, Pip Learn uses **NiceGUI** (`nicegui>=3.18.0`) on top of **FastAPI** and **Starlette**. The complete DOM hierarchy, interactive components, responsive grid layouts, and client-server event bindings are defined directly in Python:
-* **Entrypoint & Routing (`app/main.py`):** Decorates Python functions with `@ui.page("/")`, `@ui.page("/dashboard")`, and `@ui.page("/module/{module_id}/lesson/{lesson_id}")`.
-* **Component Architecture (`app/components/`):** Encapsulated, reusable Python UI elements such as `render_header()`, `render_artwork()`, and `render_video_player()`.
-* **Zero JS Build Pipeline:** No Webpack, Vite, or Node.js runtime required in production.
+<br>
 
-### 2. Isolated Execution Sandbox (`app/execution/runner.py`)
-To allow learners to run arbitrary Python code safely, Pip Learn implements an isolated execution engine:
-* **Subprocess Execution:** Code is written to a temporary directory (`tempfile.TemporaryDirectory`) and executed using `subprocess.Popen` in a separate Python process.
-* **Pre-Flight Safety Check:** An AST-based analyzer (`app/execution/security.py`) detects and blocks dangerous operations (e.g., `os.system`, `subprocess.Popen`, `shutil.rmtree`, socket network calls) before execution begins.
-* **Resource Bounds:** Execution is wrapped in strict timeout monitors (default: 3.5 seconds) to prevent infinite loops from hanging the server.
-* **Captured Diagnostics:** Standard output (`stdout`), standard error (`stderr`), exit codes, and elapsed execution time are captured and transmitted back to the browser.
+<p align="center">
+  <img src="docs/assets/art-03-the-study.jpg" width="100%" alt="Pip Learn — The Study" />
+</p>
 
-```python
-# Example: Isolated Execution Pattern in app/execution/runner.py
-with tempfile.TemporaryDirectory() as temp_dir:
-    script_file = os.path.join(temp_dir, "learner_script.py")
-    with open(script_file, "w", encoding="utf-8") as f:
-        f.write(code)
-    
-    proc = subprocess.Popen(
-        [sys.executable, script_file],
-        stdout=subprocess.PIPE,
-        stderr=subprocess.PIPE,
-        text=True,
-        cwd=temp_dir
-    )
-    stdout, stderr = proc.communicate(timeout=timeout_sec)
-```
+<p align="center">
+  <sub><em>ART-03 — The Study. Quiet focus, deliberate practice, and continuous verified progression.</em></sub>
+</p>
 
-### 3. Practice Evaluation & Multi-Case Unit Testing (`app/execution/evaluator.py`)
-Student submissions in the Practice stage are verified through automated test suites:
-* Compares actual stdout against expected values with whitespace tolerance.
-* Performs regex and AST checks to ensure required programming constructs (e.g., list comprehensions, recursion, error handling) are genuinely used.
-* Generates clear, non-punitive hints when errors occur.
+<br>
 
-### 4. Database Persistence & ORM (`app/database/models.py`, `app/database/crud.py`)
-Pip Learn uses **SQLAlchemy 2.0** to interface with SQLite:
-* **Relational Schema:** Models include `User`, `Learner`, `ModuleProgress`, `LessonProgress`, `StageProgress`, `QuizAttempt`, and `CodeSubmission`.
-* **Automatic Migrations & Seeding (`app/database/connection.py`):** On startup, `init_db()` validates SQLite schemas, applies table updates, and seeds the initial academic curriculum and demo student (`priya`).
+### 1. Read — Conceptual Foundation
+Every topic begins with precise, book-grade prose. Rather than listing grammar rules in isolation, the reading stage introduces the underlying computer science rationale—explaining why a data structure behaves as it does, how Python evaluates an expression, and which common misconceptions learners typically encounter.
 
-### 5. Secure Authentication & Session Management (`app/auth/service.py`)
-* Passwords are encrypted using state-of-the-art **Argon2id** password hashing (`argon2-cffi`), preventing credential leakage.
-* NiceGUI user sessions (`app.storage.user`) persist authentication state across page reloads and protect private routes (`/dashboard`, `/practice`, `/settings`).
+### 2. Watch — Curated Video Instruction
+Concepts are reinforced through focused video demonstrations embedded in a stable 16:9 player with native controls and zero layout shift. The catalog features vetted master instructors—introducing core fundamentals with Bro Code and advancing into comprehensive technical explorations with Corey Schafer.
 
-### 6. Canonical Progress Resumption Engine (`app/navigation/nav.py`)
-* Evaluates completed lessons, pending stages, and module prerequisites.
-* Automatically routes learners to their exact next unfinished stage when they click **"Start Learning"** or **"Continue Learning"**, eliminating dead ends and lost progress.
+### 3. Experiment — Live Interactive Sandbox
+Understanding requires testing assumptions. The experiment stage provides an integrated dark-themed code editor pre-loaded with runnable examples. Learners can modify parameters, test edge cases, and run scripts in a sandboxed runtime that reports standard output, return values, and execution duration in milliseconds.
+
+### 4. Practice — Automated Challenge Evaluation
+Independent problem solving is verified through targeted coding exercises. Learner submissions are evaluated against multi-case functional test suites that examine standard output and code structure. If a solution fails, an intelligent hint engine offers contextual diagnostics without revealing the answer.
+
+### 5. Check — Mastery Assessment
+Lessons conclude with diagnostic multiple-choice assessments designed to probe conceptual edge cases. Submissions receive immediate explanatory feedback, updating the learner's academic progress record in the persistent relational database.
+
+<br>
 
 ---
 
-## 4. System Architecture
+<br>
 
-The following diagram illustrates how requests flow through the application:
+## How Python Powers Pip Learn
+
+Pip Learn is not merely an educational tool for learning Python; **it is an advanced software platform engineered entirely in Python**. The user interface, web framework, code sandbox, database models, session security, and automated evaluators are built using the Python ecosystem.
+
+```
+                              FULL-STACK PYTHON ARCHITECTURE
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│ UI & Application Layer : NiceGUI (Pure Python components, reactive bindings, Starlette) │
+│ Backend Engine         : FastAPI & Uvicorn ASGI Server                                 │
+│ Sandbox Execution      : Isolated Python Subprocesses + AST Pre-Flight Security Checks │
+│ Curriculum Engine      : Strongly-Typed Python Data Classes & Validated Catalogs       │
+│ Authentication         : Argon2id Cryptographic Password Hashing (argon2-cffi)         │
+│ Persistence Layer      : SQLite Relational Database with SQLAlchemy 2.0 ORM            │
+│ Quality Assurance      : Pytest & Playwright Browser Automation Suite                  │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+```
+
+### Python-Native UI Architecture
+Pip Learn uses **NiceGUI** (`nicegui>=3.18.0`) on top of **FastAPI** and **Starlette**. The DOM structure, reactive component trees, responsive layouts, and WebSocket client-server bindings are written entirely in Python:
+* **Route Declaration (`app/main.py`):** Page routes are defined via decorators (`@ui.page("/")`, `@ui.page("/dashboard")`, `@ui.page("/module/{module_id}/lesson/{lesson_id}")`).
+* **Modular Screen Renderers (`app/screens/`):** 12 individual screen modules manage distinct platform domains—from authentication (`s00_auth.py`) to the lesson workspace (`s06_lesson.py`) and academic reports (`s11_report.py`).
+* **Zero JavaScript Build Step:** Developers write standard Python; no node modules, bundlers, or Webpack configurations are required.
+
+### Isolated Subprocess Code Execution
+To allow users to write and execute arbitrary Python code safely, the platform incorporates a sandboxed execution engine (`app/execution/runner.py`):
+* **AST Pre-Flight Safety Verification:** Before running learner scripts, an AST-based analyzer (`app/execution/security.py`) checks for unauthorized system calls (such as `os.system`, `subprocess.Popen`, `shutil.rmtree`, or raw network sockets).
+* **Process Isolation:** User code runs inside isolated temporary directories (`tempfile.TemporaryDirectory`) via `subprocess.Popen`.
+* **Execution Guardrails:** Strict wall-clock timeouts (default: 3.5 seconds) terminate infinite loops and prevent memory exhaustion.
+* **Output Capture:** Standard output, standard error, exit codes, and millisecond elapsed execution times are parsed and relayed to the frontend.
+
+### Automated Challenge Evaluation
+Practice solutions are graded programmatically in `app/execution/evaluator.py`:
+* Submissions are validated against expected outputs with whitespace normalization.
+* Structural AST rules verify required programming constructs (such as list comprehensions, recursion, or explicit exception handlers).
+* Non-punitive, targeted guidance is generated automatically when tests fail.
+
+### Relational Persistence & Migration System
+Learner data is managed via **SQLAlchemy 2.0** models (`app/database/models.py`) connecting to an embedded SQLite database (`data/pip_learn.db`):
+* Tracks users, student records, module completions, lesson states, stage milestones, quiz scores, and project submissions.
+* Automatic schema migration and seeding (`app/database/connection.py`) ensures that a newly cloned repository initializes a fully working database on first launch, including a pre-seeded demo student account (`priya`).
+
+### Canonical Progress Resumption
+The navigation engine (`app/navigation/nav.py`) dynamically computes the learner's true educational frontier. When a student clicks **"Start Learning"** or **"Continue"**, the platform queries completed stages and routes directly to the next unfinished lesson stage, avoiding broken links or hardcoded paths.
+
+<br>
+
+---
+
+<br>
+
+## System Architecture
 
 ```mermaid
 flowchart TD
-    Client["Browser / Client"]
+    Browser["Client Web Browser"]
 
-    subgraph Presentation ["Presentation & UI Layer (NiceGUI / FastAPI)"]
-        Router["Router (app/main.py)"]
-        Screens["12 Screen Renderers (app/screens/s01 - s12)"]
-        AuthScreen["Auth Screens (app/screens/s00_auth.py)"]
+    subgraph Interface ["Presentation Layer — NiceGUI & FastAPI"]
+        Router["Router Engine (app/main.py)"]
+        Screens["12 Screen Modules (app/screens/)"]
         Components["UI Components (app/components/)"]
     end
 
-    subgraph Services ["Application & Domain Services"]
-        AuthService["Auth Service (app/auth/service.py)"]
-        NavEngine["Navigation & Resume Engine (app/navigation/nav.py)"]
-        CurriculumLoader["Curriculum Loader (app/curriculum/loader.py)"]
-        VideoService["Video Service (app/curriculum/videos.py)"]
+    subgraph CoreServices ["Core Services"]
+        Auth["Authentication & Session Service (app/auth/)"]
+        NavEngine["Canonical Navigation Engine (app/navigation/)"]
+        Curriculum["Curriculum Registry & Video Catalog (app/curriculum/)"]
     end
 
-    subgraph ExecutionSandbox ["Sandboxed Code Execution Engine"]
-        SecurityCheck["AST Pre-Flight Security Check (app/execution/security.py)"]
-        SubprocessRunner["Subprocess Runner (app/execution/runner.py)"]
+    subgraph SandboxedRuntime ["Execution & Grading Sandbox"]
+        ASTSecurity["AST Safety Filter (app/execution/security.py)"]
+        Runner["Subprocess Runner (app/execution/runner.py)"]
         Evaluator["Automated Test Evaluator (app/execution/evaluator.py)"]
     end
 
-    subgraph DataLayer ["Persistence Layer (SQLAlchemy 2.0 + SQLite)"]
-        CRUD["CRUD Operations (app/database/crud.py)"]
-        ORMModels["ORM Models (app/database/models.py)"]
-        SQLiteDB[("SQLite Database (data/pip_learn.db)")]
+    subgraph Storage ["Persistence Layer — SQLAlchemy 2.0"]
+        CRUD["Data Access Layer (app/database/crud.py)"]
+        Models["Relational Models (app/database/models.py)"]
+        Database[("SQLite Database (data/pip_learn.db)")]
     end
 
-    Client <-->|"HTTP / WebSocket"| Router
+    Browser <-->|"HTTP & WebSockets"| Router
     Router --> Screens
-    Router --> AuthScreen
     Screens --> Components
     Screens --> NavEngine
-    Screens --> CurriculumLoader
-    Screens --> VideoService
-    AuthScreen --> AuthService
-    AuthService --> CRUD
+    Screens --> Curriculum
+    Screens --> Auth
+    Auth --> CRUD
     NavEngine --> CRUD
-    Screens --> SecurityCheck
-    SecurityCheck --> SubprocessRunner
-    SubprocessRunner --> Evaluator
-    CRUD --> ORMModels
-    ORMModels --> SQLiteDB
+    Screens --> ASTSecurity
+    ASTSecurity --> Runner
+    Runner --> Evaluator
+    CRUD --> Models
+    Models --> Database
 ```
 
----
-
-## 5. Product Features
-
-* **Editorial Homepage:** Calm, typography-first landing experience featuring the π logo, curated fine artwork, clear course metrics, and instant resume navigation.
-* **Curriculum Explorer (`/curriculum`):** Interactive visual index of all 8 modules and 50 lessons, indicating completed lessons, current progress, and locked prerequisites.
-* **Study Space Dashboard (`/dashboard`):** Personalized learner overview showing completed hours, mastery percentage, active modules, and quick actions.
-* **5-Stage Lesson Workspace (`/module/{id}/lesson/{id}`):** Unified study space integrating reading material, native 16:9 video player, live code sandbox, automated practice tests, and knowledge check quizzes.
-* **Interactive Code Playground (`/practice`):** Dedicated laboratory for experimenting with syntax, variables, data structures, and algorithms.
-* **Academic Assessment System (`/module/{id}/quiz`):** Module-level diagnostic exams verifying knowledge retention before advancing to subsequent modules.
-* **Capstone Project Workshop (`/projects`):** Real-world applied projects (e.g., Smart Calculator, Customer CRM, Log File Analyzer, Grade Analysis Engine).
-* **Progress & Achievements (`/achievements`):** Milestone badges celebrating conceptual mastery, streak continuity, and challenge completions.
-* **Academic Evaluation Report (`/report`):** Generates an official grading breakdown aligned with Marwadi University continuous evaluation guidelines (out of 100 marks).
+<br>
 
 ---
 
-## 6. Course Structure
+<br>
 
-Aligned with **Marwadi University Course: 01AP0303 (Programming with Python)**:
+## Academic Curriculum
 
-| Module | Title | Lessons | Key Concepts Covered | Syllabus Hours |
-|:---:|:---|:---:|:---|:---:|
-| **1** | **Python Fundamentals** | 10 | Setup, Variables, Memory Models, Arithmetic, Strings, Type Conversion, Console I/O | 6 Hours |
-| **2** | **Control Flow & Functions** | 6 | Conditionals, Loops (`for`/`while`), Loop Control, Functions, Scope, Lambda Expressions | 6 Hours |
-| **3** | **Data Structures** | 7 | Lists, Tuples, Sets, Dictionaries, Comprehensions, Operations, Nested Structures | 6 Hours |
-| **4** | **File Handling & Exceptions** | 6 | File Streams, Context Managers (`with`), Exception Handling (`try`/`except`), Custom Errors | 5 Hours |
-| **5** | **Object-Oriented Programming** | 7 | Classes, Objects, `__init__`, Encapsulation, Inheritance, Polymorphism, Magic Methods | 6 Hours |
-| **6** | **Database Connectivity** | 6 | Relational Concepts, SQLite, CRUD Operations, Transactions, Parameterized Queries | 6 Hours |
-| **7** | **APIs, Automation & Reporting** | 4 | HTTP Requests, JSON Parsing, Automation Scripts, Reporting, File Generation | 5 Hours |
-| **8** | **Data Analytics & Visualization** | 4 | NumPy Arrays, Pandas DataFrames, Matplotlib Plotting, Statistical Insights | 5 Hours |
-| **Total** | **8 Modules** | **50 Lessons** | **Complete Python Academic Curriculum** | **45 Contact Hours** |
+Pip Learn implements the complete academic syllabus for **Marwadi University Course: 01AP0303 (Programming with Python)**:
 
----
+1. **Module 1 — Python Fundamentals (10 Lessons):** Environment setup, variables, assignment expressions, data types, type conversion, basic arithmetic, and formatted console I/O.
+2. **Module 2 — Control Flow & Functions (6 Lessons):** Relational operators, boolean logic, branching conditionals, `for` and `while` loops, functions, scope rules, and lambda expressions.
+3. **Module 3 — Data Structures (7 Lessons):** Lists, tuples, sets, dictionaries, slicing operations, membership testing, dictionary methods, and list/dict comprehensions.
+4. **Module 4 — File Handling & Exception Handling (6 Lessons):** Text file I/O, file access modes, context managers (`with`), exception hierarchies, `try`/`except`/`finally` blocks, and custom error types.
+5. **Module 5 — Object-Oriented Programming (7 Lessons):** Classes, instances, constructors (`__init__`), instance and class methods, encapsulation, inheritance, polymorphism, and dunder methods.
+6. **Module 6 — Database Connectivity (6 Lessons):** Relational database concepts, SQLite operations, SQL syntax, parameterized queries, schema creation, and database transaction handling.
+7. **Module 7 — API Integration, Automation & Reporting (4 Lessons):** HTTP request handling, JSON serialization, REST API consumption, automation scripting, and automated report generation.
+8. **Module 8 — Data Analytics & Visualization (4 Lessons):** NumPy array mechanics, Pandas DataFrame manipulation, statistical summaries, and data visualization using Matplotlib.
 
-## 7. Screenshots and Artwork
-
-### Application Interface
-
-| Desktop Homepage | Lesson Watch Stage |
-|:---:|:---:|
-| ![Desktop Homepage](docs/screenshots/homepage_desktop.png) | ![Watch Stage](docs/screenshots/watch_stage.png) |
-| *Clean editorial homepage with resume actions* | *Native 16:9 embedded video player* |
-
-| Experiment Code Sandbox | Practice Test Evaluation |
-|:---:|:---:|
-| ![Experiment Stage](docs/screenshots/experiment_stage.png) | ![Practice Stage](docs/screenshots/practice_stage.png) |
-| *Dark-themed live code editor with stdout inspection* | *Automated multi-case test runner* |
-
-| Mobile Responsive View |
-|:---:|
-| <img src="docs/screenshots/homepage_mobile.png" width="360" alt="Mobile View" /> |
-| *Fully responsive on smartphones and tablets* |
-
-### Editorial Fine Art Collection
-
-Pip Learn features 12 classical oil-painting artworks serving as visual metaphors for each phase of the learner's journey. Located in `pip-learn-artworks/`:
-
-| Asset ID | Painting Title | Platform Placement |
-|:---|:---|:---|
-| `ART-01` | *The Beginning* | Homepage Hero |
-| `ART-02` | *The Journey* | Learning Philosophy & Pedagogy |
-| `ART-03` | *The Study* | Learner Study Space Dashboard |
-| `ART-04` | *The Path* | Curriculum Explorer |
-| `ART-05` | *The First Light* | Module 1: Python Fundamentals |
-| `ART-06` | *The Crossroads* | Module 2: Control Flow & Functions |
-| `ART-07` | *The Collection* | Module 3: Data Structures |
-| `ART-08` | *The Archive* | Module 4: File Handling & Exceptions |
-| `ART-09` | *The Structure* | Module 5: Object-Oriented Programming |
-| `ART-10` | *The Connections* | Module 6: Database Connectivity |
-| `ART-11` | *The Horizon* | Module 7: APIs & Automation |
-| `ART-12` | *The Observatory* | Module 8: Data Analytics & Visualization |
+<br>
 
 ---
 
-## 8. Technology Stack
+<br>
 
-| Layer | Technology | Version | Architectural Role |
-|:---|:---|:---|:---|
-| **Language** | **Python** | `>=3.10` | Universal runtime powering backend, UI, sandbox, and tests |
-| **UI Framework** | **NiceGUI** | `>=3.18.0` | Python-native component rendering, reactive DOM bindings |
-| **Web Server** | **FastAPI / Starlette** | `>=0.115.0` | High-performance ASGI web engine and route dispatcher |
-| **ASGI Server** | **Uvicorn** | `>=0.30.0` | Production-ready asynchronous server gateway |
-| **Database ORM** | **SQLAlchemy** | `>=2.0.0` | Relational object-relational mapping and query builder |
-| **Persistence** | **SQLite** | `3.x` | Embedded ACID relational storage (`data/pip_learn.db`) |
-| **Security** | **Argon2id (`argon2-cffi`)** | `>=23.1.0` | State-of-the-art cryptographic password hashing |
-| **Data Validation** | **Pydantic** | `>=2.0.0` | Schema validation and data model serialization |
-| **Analytics** | **NumPy / Pandas / Matplotlib** | Latest | Data processing libraries taught and demonstrated in Module 8 |
-| **Formatting** | **Markdown2 / Pygments** | Latest | Markdown rendering and syntax highlighting |
-| **Testing** | **Pytest** | `>=8.0.0` | Unit, integration, and sandbox security test runner |
-| **E2E Testing** | **Playwright** | `>=1.40.0` | Headless browser automation and regression validation |
+## Installation and Local Setup
 
----
-
-## 9. Installation and Local Development
-
-### Prerequisites
-
-* **Python 3.10+** (Python 3.10, 3.11, 3.12, 3.13, or 3.15 supported)
-* `git` installed
-* Recommended: Virtual environment (`venv`)
+### System Prerequisites
+* **Python 3.10** or higher (tested on Python 3.10, 3.11, 3.12, 3.13, and 3.15).
+* Standard `git` client.
 
 ### 1. Clone the Repository
-
 ```bash
 git clone https://github.com/Tirth-byte/NEW-PIP.git
 cd NEW-PIP
 ```
 
-### 2. Set Up Virtual Environment
+### 2. Configure the Virtual Environment
 
 **macOS / Linux:**
 ```bash
@@ -320,14 +226,13 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-**Windows (Command Prompt / PowerShell):**
+**Windows (PowerShell / Command Prompt):**
 ```cmd
 python -m venv .venv
 .venv\Scripts\activate
 ```
 
 ### 3. Install Dependencies
-
 ```bash
 pip install --upgrade pip
 pip install -r requirements.txt
@@ -338,109 +243,94 @@ pip install -r requirements.txt
 playwright install chromium
 ```
 
-### 4. Configure Environment (Optional)
-
-Copy the configuration template:
+### 4. Environment Configuration (Optional)
+A pre-configured template is included:
 ```bash
 cp .env.example .env
 ```
-Default values will work out of the box with zero manual configuration.
+Default parameters allow the application to function immediately without manual adjustments.
 
 ### 5. Launch the Platform
-
 ```bash
 python -m app.main
 ```
 
-The database (`data/pip_learn.db`) will automatically initialize and seed on the first launch.
+The SQLite database (`data/pip_learn.db`) will initialize and seed automatically.
 
-Open your browser and navigate to:
+Access the platform in any modern web browser:
 ```
 http://localhost:8080
 ```
 
-### Default Demo Account
-
-For rapid evaluation and testing, the platform includes a seeded student account:
+### Demo Student Account
+To explore learner features immediately, use the pre-seeded account:
 * **Username:** `priya`
 * **Password:** `Priya123!`
 
-*(You can also click **"Create an account"** on `/register` to register any new learner).*
+*(New accounts can also be created freely via `/register`)*.
+
+<br>
 
 ---
 
-## 10. Testing and Quality Assurance
+<br>
 
-Pip Learn includes an automated test suite verifying database operations, security sandboxing, curriculum integrity, navigation resilience, and browser playback.
+## Testing & Quality Assurance
 
-### Running All Tests
+The codebase includes an automated test suite verifying database integrity, security sandboxing, curriculum structure, and browser navigation.
 
-Execute the full test suite with:
-
+To execute the test suite:
 ```bash
 pytest
 ```
 
-### Test Suite Coverage
+**Test Suite Coverage:**
+* `tests/test_auth_navigation.py` — Session security, login/logout transitions, route access control.
+* `tests/test_critical_navigation_and_progress_audit.py` — Canonical progress resumption logic.
+* `tests/test_curriculum.py` & `test_curriculum_v2_validation.py` — Integrity check across all 50 lessons.
+* `tests/test_database.py` — SQLite schema migrations, ORM relational integrity.
+* `tests/test_execution.py` — Subprocess timeouts, AST safety rules, stdout capture.
+* `tests/test_phase12_acceptance.py` & `test_play_button_spec.py` — Playwright browser automation tests.
+* `tests/test_projects.py` — Capstone project execution verification.
 
-```
-tests/
-├── test_auth_navigation.py          # Session authentication, login/logout, route protection
-├── test_critical_navigation_audit.py # Canonical resume logic & Start Learning redirection
-├── test_curriculum.py               # Curriculum loading, modules, lessons, and stage data
-├── test_curriculum_v2_validation.py # Complete validation of all 50 lessons across 8 modules
-├── test_database.py                 # SQLite ORM models, student progress records, migrations
-├── test_e2e_lesson_journey.py       # End-to-end lesson traversal from Read to Check
-├── test_execution.py                # Python code sandbox, timeouts, AST security guards
-├── test_homepage_redesign.py        # Editorial styling, typography, and responsive hero
-├── test_learning_flow_and_dia_hero.py # Navigation state transitions
-├── test_module1_lesson1_video.py    # Bro Code video embedding and responsive player
-├── test_phase12_acceptance.py       # Full browser acceptance journey
-├── test_play_button_spec.py         # Player dimensions, play trigger, no layout shift
-├── test_projects.py                 # Capstone project runners and validation
-├── test_video_player_and_navigation.py # Stage forward/back navigation consistency
-└── test_videos.py                   # Video catalog inventory and creator attribution
-```
+**Status:** `48 passed (100% pass rate)`
 
-**Result:** `48 passed in 111.14s (100% pass rate)`
+<br>
 
 ---
 
-## 11. Future Improvements
+<br>
 
-### Implemented & Verified Capabilities
-- [x] Complete 8-Module, 50-Lesson curriculum aligned with Marwadi University 01AP0303.
-- [x] Pure Python UI architecture built with NiceGUI and FastAPI.
-- [x] 5-Stage pedagogical flow: Read → Watch → Experiment → Practice → Check.
-- [x] Sandboxed Python execution engine with AST security boundaries and timeouts.
-- [x] Automated test runner with customized feedback and hints.
-- [x] Argon2id password security and session persistence.
-- [x] SQLite relational storage with automatic migrations and demo seeding.
-- [x] Canonical progress resumption engine preventing navigation dead-ends.
-- [x] 12 curated fine art oil paintings integrated throughout the UI.
-- [x] Stable 16:9 video player with multi-creator playlist support.
-- [x] 48 automated tests with 100% pass rate.
-
-### Planned Enhancements
-- [ ] **Containerized Deployment:** Official `Dockerfile` and `docker-compose.yml` for simplified cloud hosting on GCP, AWS, or Railway.
-- [ ] **Faculty Dashboard:** Instructor portal for monitoring student completion rates, common misconceptions, and quiz scores across course sections.
-- [ ] **WebAssembly / Pyodide Client Execution:** Optional browser-side sandbox fallback for zero-latency execution of basic scripts.
-- [ ] **Dark Mode Toggle:** Optional high-contrast dark theme across all reading stages.
-- [ ] **Automated PDF Export:** One-click generation of the official Marwadi University continuous evaluation report.
-
----
-
-## 12. Credits and Academic Alignment
-
-* **Platform:** Pip Learn (Python Learning Platform)
-* **Institution:** [Marwadi University](https://www.marwadiuniversity.ac.in/), Rajkot, Gujarat, India
-* **Course Code:** `01AP0303` — *Programming with Python*
-* **Contact Hours:** 45 Syllabus Hours
-* **Evaluation Framework:** 100 Continuous Evaluation Marks
-* **Video Curations:** Educational content thoughtfully curated from [Bro Code](https://www.youtube.com/@BroCodez) and [Corey Schafer](https://www.youtube.com/@coreyms).
-
----
+## Philosophy & Future Horizons
 
 <p align="center">
-  <sub>Pip Learn — Python, one concept at a time.</sub>
+  <img src="docs/assets/art-12-the-observatory.jpg" width="100%" alt="Pip Learn — The Observatory" />
 </p>
+
+<p align="center">
+  <sub><em>ART-12 — The Observatory. Cultivating curiosity, analytical discipline, and deep computational literacy.</em></sub>
+</p>
+
+<br>
+
+Pip Learn is founded on the conviction that mastering computer science requires more than fast-paced tutorials or superficial syntax repetition. It demands quiet focus, rigorous experimentation, and the cultivation of an intuitive mental model. By uniting clear pedagogical writing, verified video instruction, interactive sandboxes, and classical visual art, Pip Learn offers learners a calm, intellectually serious space in which to truly learn Python.
+
+<br>
+
+---
+
+<br>
+
+## Credits and Academic Alignment
+
+* **Platform:** Pip Learn (Python Learning Studio)
+* **Academic Institution:** [Marwadi University](https://www.marwadiuniversity.ac.in/), Rajkot, Gujarat, India
+* **Course:** Programming with Python (`01AP0303`)
+* **Contact Hours:** 45 Syllabus Hours (100 Evaluation Marks)
+* **Instructional Media:** Curated educational video instruction courtesy of [Bro Code](https://www.youtube.com/@BroCodez) and [Corey Schafer](https://www.youtube.com/@coreyms).
+
+<br>
+
+<div align="center">
+  <sub>Pip Learn — Python, one concept at a time.</sub>
+</div>
