@@ -1,0 +1,608 @@
+{
+  "playlist_url": "https://www.youtube.com/playlist?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU",
+  "retrieved_on": "2026-10-25",
+  "retrieval_method": "YouTube public playlist page initial data",
+  "record_count": 100,
+  "videos": [
+    {
+      "position": 1,
+      "video_id": "YYXdXT2l-Gg",
+      "title": "Python Tutorial for Beginners 1: Install and Setup for Mac and Windows",
+      "source_url": "https://www.youtube.com/watch?v=YYXdXT2l-Gg"
+    },
+    {
+      "position": 2,
+      "video_id": "k9TUPpGqYTo",
+      "title": "Python Tutorial for Beginners 2: Strings - Working with Textual Data",
+      "source_url": "https://www.youtube.com/watch?v=k9TUPpGqYTo"
+    },
+    {
+      "position": 3,
+      "video_id": "khKv-8q7YmY",
+      "title": "Python Tutorial for Beginners 3: Integers and Floats - Working with Numeric Data",
+      "source_url": "https://www.youtube.com/watch?v=khKv-8q7YmY"
+    },
+    {
+      "position": 4,
+      "video_id": "W8KRzm-HUcc",
+      "title": "Python Tutorial for Beginners 4: Lists, Tuples, and Sets",
+      "source_url": "https://www.youtube.com/watch?v=W8KRzm-HUcc"
+    },
+    {
+      "position": 5,
+      "video_id": "daefaLgNkw0",
+      "title": "Python Tutorial for Beginners 5: Dictionaries - Working with Key-Value Pairs",
+      "source_url": "https://www.youtube.com/watch?v=daefaLgNkw0"
+    },
+    {
+      "position": 6,
+      "video_id": "DZwmZ8Usvnk",
+      "title": "Python Tutorial for Beginners 6: Conditionals and Booleans - If, Else, and Elif Statements",
+      "source_url": "https://www.youtube.com/watch?v=DZwmZ8Usvnk"
+    },
+    {
+      "position": 7,
+      "video_id": "6iF8Xb7Z3wQ",
+      "title": "Python Tutorial for Beginners 7: Loops and Iterations - For/While Loops",
+      "source_url": "https://www.youtube.com/watch?v=6iF8Xb7Z3wQ"
+    },
+    {
+      "position": 8,
+      "video_id": "9Os0o3wzS_I",
+      "title": "Python Tutorial for Beginners 8: Functions",
+      "source_url": "https://www.youtube.com/watch?v=9Os0o3wzS_I"
+    },
+    {
+      "position": 9,
+      "video_id": "CqvZ3vGoGs0",
+      "title": "Python Tutorial for Beginners 9: Import Modules and Exploring The Standard Library",
+      "source_url": "https://www.youtube.com/watch?v=CqvZ3vGoGs0"
+    },
+    {
+      "position": 10,
+      "video_id": "xFciV6Ew5r4",
+      "title": "Setting up a Python Development Environment in Sublime Text",
+      "source_url": "https://www.youtube.com/watch?v=xFciV6Ew5r4"
+    },
+    {
+      "position": 11,
+      "video_id": "DjEuROpsvp4",
+      "title": "Setting up a Python Development Environment in Atom",
+      "source_url": "https://www.youtube.com/watch?v=DjEuROpsvp4"
+    },
+    {
+      "position": 12,
+      "video_id": "NDFbXIiqT4o",
+      "title": "Setting up a Python Development Environment in Eclipse",
+      "source_url": "https://www.youtube.com/watch?v=NDFbXIiqT4o"
+    },
+    {
+      "position": 13,
+      "video_id": "U2ZN104hIcc",
+      "title": "Python Tutorial: pip - An in-depth look at the package management system",
+      "source_url": "https://www.youtube.com/watch?v=U2ZN104hIcc"
+    },
+    {
+      "position": 14,
+      "video_id": "N5vscPTWKOk",
+      "title": "Python Tutorial: virtualenv and why you should use virtual environments",
+      "source_url": "https://www.youtube.com/watch?v=N5vscPTWKOk"
+    },
+    {
+      "position": 15,
+      "video_id": "YJC6ldI3hWk",
+      "title": "Python Tutorial: Anaconda - Installation and Using Conda",
+      "source_url": "https://www.youtube.com/watch?v=YJC6ldI3hWk"
+    },
+    {
+      "position": 16,
+      "video_id": "cY2NXB_Tqq0",
+      "title": "Python Tutorial: How I Manage Multiple Projects, Virtual Environments, and Environment Variables",
+      "source_url": "https://www.youtube.com/watch?v=cY2NXB_Tqq0"
+    },
+    {
+      "position": 17,
+      "video_id": "HW29067qVWk",
+      "title": "Jupyter Notebook Tutorial: Introduction, Setup, and Walkthrough",
+      "source_url": "https://www.youtube.com/watch?v=HW29067qVWk"
+    },
+    {
+      "position": 18,
+      "video_id": "QVdf0LgmICw",
+      "title": "Python Tutorial: Variable Scope - Understanding the LEGB rule and global/nonlocal statements",
+      "source_url": "https://www.youtube.com/watch?v=QVdf0LgmICw"
+    },
+    {
+      "position": 19,
+      "video_id": "ajrtAuDg3yw",
+      "title": "Python Tutorial: Slicing Lists and Strings",
+      "source_url": "https://www.youtube.com/watch?v=ajrtAuDg3yw"
+    },
+    {
+      "position": 20,
+      "video_id": "3dt4OGnU5sM",
+      "title": "Python Tutorial: Comprehensions - How they work and why you should be using them",
+      "source_url": "https://www.youtube.com/watch?v=3dt4OGnU5sM"
+    },
+    {
+      "position": 21,
+      "video_id": "D3JvDWO-BY4",
+      "title": "Python Tutorial: Sorting Lists, Tuples, and Objects",
+      "source_url": "https://www.youtube.com/watch?v=D3JvDWO-BY4"
+    },
+    {
+      "position": 22,
+      "video_id": "vTX3IwquFkc",
+      "title": "Python Tutorial: String Formatting - Advanced Operations for Dicts, Lists, Numbers, and Dates",
+      "source_url": "https://www.youtube.com/watch?v=vTX3IwquFkc"
+    },
+    {
+      "position": 23,
+      "video_id": "tJxcKyFMTGo",
+      "title": "Python Tutorial: OS Module - Use Underlying Operating System Functionality",
+      "source_url": "https://www.youtube.com/watch?v=tJxcKyFMTGo"
+    },
+    {
+      "position": 24,
+      "video_id": "eirjjyP2qcQ",
+      "title": "Python Tutorial: Datetime Module - How to work with Dates, Times, Timedeltas, and Timezones",
+      "source_url": "https://www.youtube.com/watch?v=eirjjyP2qcQ"
+    },
+    {
+      "position": 25,
+      "video_id": "Uh2ebFW8OYM",
+      "title": "Python Tutorial: File Objects - Reading and Writing to Files",
+      "source_url": "https://www.youtube.com/watch?v=Uh2ebFW8OYM"
+    },
+    {
+      "position": 26,
+      "video_id": "ve2pmm5JqmI",
+      "title": "Python Tutorial: Automate Parsing and Renaming of Multiple Files",
+      "source_url": "https://www.youtube.com/watch?v=ve2pmm5JqmI"
+    },
+    {
+      "position": 27,
+      "video_id": "KzqSDvzOFNA",
+      "title": "Python Tutorial: Generate Random Numbers and Data Using the random Module",
+      "source_url": "https://www.youtube.com/watch?v=KzqSDvzOFNA"
+    },
+    {
+      "position": 28,
+      "video_id": "q5uM4VKywbA",
+      "title": "Python Tutorial: CSV Module - How to Read, Parse, and Write CSV Files",
+      "source_url": "https://www.youtube.com/watch?v=q5uM4VKywbA"
+    },
+    {
+      "position": 29,
+      "video_id": "bkpLhQd6YQM",
+      "title": "Python Tutorial: Real World Example - Parsing Names From a CSV to an HTML List",
+      "source_url": "https://www.youtube.com/watch?v=bkpLhQd6YQM"
+    },
+    {
+      "position": 30,
+      "video_id": "K8L6KVGG-7o",
+      "title": "Python Tutorial: re Module - How to Write and Match Regular Expressions (Regex)",
+      "source_url": "https://www.youtube.com/watch?v=K8L6KVGG-7o"
+    },
+    {
+      "position": 31,
+      "video_id": "NIWwJbo-9_8",
+      "title": "Python Tutorial: Using Try/Except Blocks for Error Handling",
+      "source_url": "https://www.youtube.com/watch?v=NIWwJbo-9_8"
+    },
+    {
+      "position": 32,
+      "video_id": "x3v9zMX1s4s",
+      "title": "Python Tutorial: Duck Typing and Asking Forgiveness, Not Permission (EAFP)",
+      "source_url": "https://www.youtube.com/watch?v=x3v9zMX1s4s"
+    },
+    {
+      "position": 33,
+      "video_id": "OdIHeg4jj2c",
+      "title": "Python Tutorial: How to Set the Path and Switch Between Different Versions/Executables (Windows)",
+      "source_url": "https://www.youtube.com/watch?v=OdIHeg4jj2c"
+    },
+    {
+      "position": 34,
+      "video_id": "PUIE7CPANfo",
+      "title": "Python Tutorial: How to Set the Path and Switch Between Different Versions/Executables (Mac & Linux)",
+      "source_url": "https://www.youtube.com/watch?v=PUIE7CPANfo"
+    },
+    {
+      "position": 35,
+      "video_id": "nghuHvKLhJA",
+      "title": "Python Quick Tip: F-Strings - How to Use Them and Advanced String Formatting",
+      "source_url": "https://www.youtube.com/watch?v=nghuHvKLhJA"
+    },
+    {
+      "position": 36,
+      "video_id": "bD05uGo_sVI",
+      "title": "Python Tutorial: Generators - How to use them and the benefits you receive",
+      "source_url": "https://www.youtube.com/watch?v=bD05uGo_sVI"
+    },
+    {
+      "position": 37,
+      "video_id": "FsAPt_9Bf3U",
+      "title": "Python Tutorial: Decorators - Dynamically Alter The Functionality Of Your Functions",
+      "source_url": "https://www.youtube.com/watch?v=FsAPt_9Bf3U"
+    },
+    {
+      "position": 38,
+      "video_id": "KlBPCzcQNU8",
+      "title": "Python Tutorial: Decorators With Arguments",
+      "source_url": "https://www.youtube.com/watch?v=KlBPCzcQNU8"
+    },
+    {
+      "position": 39,
+      "video_id": "GfxJYp9_nJA",
+      "title": "Python Tutorial: Namedtuple - When and why should you use namedtuples?",
+      "source_url": "https://www.youtube.com/watch?v=GfxJYp9_nJA"
+    },
+    {
+      "position": 40,
+      "video_id": "ZDa-Z5JzLYM",
+      "title": "Python OOP Tutorial 1: Classes and Instances",
+      "source_url": "https://www.youtube.com/watch?v=ZDa-Z5JzLYM"
+    },
+    {
+      "position": 41,
+      "video_id": "BJ-VvGyQxho",
+      "title": "Python OOP Tutorial 2: Class Variables",
+      "source_url": "https://www.youtube.com/watch?v=BJ-VvGyQxho"
+    },
+    {
+      "position": 42,
+      "video_id": "rq8cL2XMM5M",
+      "title": "Python OOP Tutorial 3: classmethods and staticmethods",
+      "source_url": "https://www.youtube.com/watch?v=rq8cL2XMM5M"
+    },
+    {
+      "position": 43,
+      "video_id": "RSl87lqOXDE",
+      "title": "Python OOP Tutorial 4: Inheritance - Creating Subclasses",
+      "source_url": "https://www.youtube.com/watch?v=RSl87lqOXDE"
+    },
+    {
+      "position": 44,
+      "video_id": "3ohzBxoFHAY",
+      "title": "Python OOP Tutorial 5: Special (Magic/Dunder) Methods",
+      "source_url": "https://www.youtube.com/watch?v=3ohzBxoFHAY"
+    },
+    {
+      "position": 45,
+      "video_id": "jCzT9XFZ5bw",
+      "title": "Python OOP Tutorial 6: Property Decorators - Getters, Setters, and Deleters",
+      "source_url": "https://www.youtube.com/watch?v=jCzT9XFZ5bw"
+    },
+    {
+      "position": 46,
+      "video_id": "ng2o98k983k",
+      "title": "Python Tutorial: Web Scraping with BeautifulSoup and Requests",
+      "source_url": "https://www.youtube.com/watch?v=ng2o98k983k"
+    },
+    {
+      "position": 47,
+      "video_id": "9N6a-VLBa2I",
+      "title": "Python Tutorial: Working with JSON Data using the json Module",
+      "source_url": "https://www.youtube.com/watch?v=9N6a-VLBa2I"
+    },
+    {
+      "position": 48,
+      "video_id": "k8asfUbWbI4",
+      "title": "Python Tutorial: Calculate Number of Days, Weeks, or Months to Reach Specific Goals",
+      "source_url": "https://www.youtube.com/watch?v=k8asfUbWbI4"
+    },
+    {
+      "position": 49,
+      "video_id": "-aKFBoZpiqA",
+      "title": "Python Tutorial: Context Managers - Efficiently Managing Resources",
+      "source_url": "https://www.youtube.com/watch?v=-aKFBoZpiqA"
+    },
+    {
+      "position": 50,
+      "video_id": "5cvM-crlDvg",
+      "title": "Python Tutorial: str() vs repr()",
+      "source_url": "https://www.youtube.com/watch?v=5cvM-crlDvg"
+    },
+    {
+      "position": 51,
+      "video_id": "pd-0G0MigUA",
+      "title": "Python SQLite Tutorial: Complete Overview - Creating a Database, Table, and Running Queries",
+      "source_url": "https://www.youtube.com/watch?v=pd-0G0MigUA"
+    },
+    {
+      "position": 52,
+      "video_id": "-ARI4Cz-awo",
+      "title": "Python Tutorial: Logging Basics - Logging to Files, Setting Levels, and Formatting",
+      "source_url": "https://www.youtube.com/watch?v=-ARI4Cz-awo"
+    },
+    {
+      "position": 53,
+      "video_id": "jxmzY9soFXg",
+      "title": "Python Tutorial: Logging Advanced - Loggers, Handlers, and Formatters",
+      "source_url": "https://www.youtube.com/watch?v=jxmzY9soFXg"
+    },
+    {
+      "position": 54,
+      "video_id": "5iWhQWVXosU",
+      "title": "Python Quick Tip: Hiding Passwords and Secret Keys in Environment Variables (Mac & Linux)",
+      "source_url": "https://www.youtube.com/watch?v=5iWhQWVXosU"
+    },
+    {
+      "position": 55,
+      "video_id": "IolxqkL7cD8",
+      "title": "Python Quick Tip: Hiding Passwords and Secret Keys in Environment Variables (Windows)",
+      "source_url": "https://www.youtube.com/watch?v=IolxqkL7cD8"
+    },
+    {
+      "position": 56,
+      "video_id": "sugvnHA7ElY",
+      "title": "Python Tutorial: if __name__ == '__main__'",
+      "source_url": "https://www.youtube.com/watch?v=sugvnHA7ElY"
+    },
+    {
+      "position": 57,
+      "video_id": "6tNS--WetLI",
+      "title": "Python Tutorial: Unit Testing Your Code with the unittest Module",
+      "source_url": "https://www.youtube.com/watch?v=6tNS--WetLI"
+    },
+    {
+      "position": 58,
+      "video_id": "zDYL22QNiWk",
+      "title": "Python Tutorial: Pipenv - Easily Manage Packages and Virtual Environments",
+      "source_url": "https://www.youtube.com/watch?v=zDYL22QNiWk"
+    },
+    {
+      "position": 59,
+      "video_id": "DEwgZNC-KyE",
+      "title": "Preparing for a Python Interview: 10 Things You Should Know",
+      "source_url": "https://www.youtube.com/watch?v=DEwgZNC-KyE"
+    },
+    {
+      "position": 60,
+      "video_id": "Dh-0lAyc3Bc",
+      "title": "Python Tutorial: Else Clauses on Loops",
+      "source_url": "https://www.youtube.com/watch?v=Dh-0lAyc3Bc"
+    },
+    {
+      "position": 61,
+      "video_id": "6Qs3wObeWwc",
+      "title": "Python Tutorial: Image Manipulation with Pillow",
+      "source_url": "https://www.youtube.com/watch?v=6Qs3wObeWwc"
+    },
+    {
+      "position": 62,
+      "video_id": "xqcTfplzr7c",
+      "title": "Python Tutorial: Custom Sublime Text Build Systems",
+      "source_url": "https://www.youtube.com/watch?v=xqcTfplzr7c"
+    },
+    {
+      "position": 63,
+      "video_id": "mJokZMWnyGY",
+      "title": "Python: Ex Machina Easter Egg - Hidden Message within the Code",
+      "source_url": "https://www.youtube.com/watch?v=mJokZMWnyGY"
+    },
+    {
+      "position": 64,
+      "video_id": "MwZwr5Tvyxo",
+      "title": "Python Flask Tutorial: Full-Featured Web App Part 1 - Getting Started",
+      "source_url": "https://www.youtube.com/watch?v=MwZwr5Tvyxo"
+    },
+    {
+      "position": 65,
+      "video_id": "QnDWIZuWYW0",
+      "title": "Python Flask Tutorial: Full-Featured Web App Part 2 - Templates",
+      "source_url": "https://www.youtube.com/watch?v=QnDWIZuWYW0"
+    },
+    {
+      "position": 66,
+      "video_id": "UIJKdCIEXUQ",
+      "title": "Python Flask Tutorial: Full-Featured Web App Part 3 - Forms and User Input",
+      "source_url": "https://www.youtube.com/watch?v=UIJKdCIEXUQ"
+    },
+    {
+      "position": 67,
+      "video_id": "cYWiDiIUxQc",
+      "title": "Python Flask Tutorial: Full-Featured Web App Part 4 - Database with Flask-SQLAlchemy",
+      "source_url": "https://www.youtube.com/watch?v=cYWiDiIUxQc"
+    },
+    {
+      "position": 68,
+      "video_id": "44PvX0Yv368",
+      "title": "Python Flask Tutorial: Full-Featured Web App Part 5 - Package Structure",
+      "source_url": "https://www.youtube.com/watch?v=44PvX0Yv368"
+    },
+    {
+      "position": 69,
+      "video_id": "CSHx6eCkmv0",
+      "title": "Python Flask Tutorial: Full-Featured Web App Part 6 - User Authentication",
+      "source_url": "https://www.youtube.com/watch?v=CSHx6eCkmv0"
+    },
+    {
+      "position": 70,
+      "video_id": "803Ei2Sq-Zs",
+      "title": "Python Flask Tutorial: Full-Featured Web App Part 7 - User Account and Profile Picture",
+      "source_url": "https://www.youtube.com/watch?v=803Ei2Sq-Zs"
+    },
+    {
+      "position": 71,
+      "video_id": "u0oDDZrDz9U",
+      "title": "Python Flask Tutorial: Full-Featured Web App Part 8 - Create, Update, and Delete Posts",
+      "source_url": "https://www.youtube.com/watch?v=u0oDDZrDz9U"
+    },
+    {
+      "position": 72,
+      "video_id": "PSWf2TjTGNY",
+      "title": "Python Flask Tutorial: Full-Featured Web App Part 9 - Pagination",
+      "source_url": "https://www.youtube.com/watch?v=PSWf2TjTGNY"
+    },
+    {
+      "position": 73,
+      "video_id": "vutyTx7IaAI",
+      "title": "Python Flask Tutorial: Full-Featured Web App Part 10 - Email and Password Reset",
+      "source_url": "https://www.youtube.com/watch?v=vutyTx7IaAI"
+    },
+    {
+      "position": 74,
+      "video_id": "Wfx4YBzg16s",
+      "title": "Python Flask Tutorial: Full-Featured Web App Part 11 - Blueprints and Configuration",
+      "source_url": "https://www.youtube.com/watch?v=Wfx4YBzg16s"
+    },
+    {
+      "position": 75,
+      "video_id": "uVNfQDohYNI",
+      "title": "Python Flask Tutorial: Full-Featured Web App Part 12 - Custom Error Pages",
+      "source_url": "https://www.youtube.com/watch?v=uVNfQDohYNI"
+    },
+    {
+      "position": 76,
+      "video_id": "r3R3h5ly_8g",
+      "title": "Python Tutorial: Sets - Set Methods and Operations to Solve Common Problems",
+      "source_url": "https://www.youtube.com/watch?v=r3R3h5ly_8g"
+    },
+    {
+      "position": 77,
+      "video_id": "UmljXZIypDc",
+      "title": "Python Django Tutorial: Full-Featured Web App Part 1 - Getting Started",
+      "source_url": "https://www.youtube.com/watch?v=UmljXZIypDc"
+    },
+    {
+      "position": 78,
+      "video_id": "a48xeeo5Vnk",
+      "title": "Python Django Tutorial: Full-Featured Web App Part 2 - Applications and Routes",
+      "source_url": "https://www.youtube.com/watch?v=a48xeeo5Vnk"
+    },
+    {
+      "position": 79,
+      "video_id": "qDwdMDQ8oX4",
+      "title": "Python Django Tutorial: Full-Featured Web App Part 3 - Templates",
+      "source_url": "https://www.youtube.com/watch?v=qDwdMDQ8oX4"
+    },
+    {
+      "position": 80,
+      "video_id": "1PkNiYlkkjo",
+      "title": "Python Django Tutorial: Full-Featured Web App Part 4 - Admin Page",
+      "source_url": "https://www.youtube.com/watch?v=1PkNiYlkkjo"
+    },
+    {
+      "position": 81,
+      "video_id": "aHC3uTkT9r8",
+      "title": "Python Django Tutorial: Full-Featured Web App Part 5 - Database and Migrations",
+      "source_url": "https://www.youtube.com/watch?v=aHC3uTkT9r8"
+    },
+    {
+      "position": 82,
+      "video_id": "q4jPR-M0TAQ",
+      "title": "Python Django Tutorial: Full-Featured Web App Part 6 - User Registration",
+      "source_url": "https://www.youtube.com/watch?v=q4jPR-M0TAQ"
+    },
+    {
+      "position": 83,
+      "video_id": "3aVqWaLjqS4",
+      "title": "Python Django Tutorial: Full-Featured Web App Part 7 - Login and Logout System",
+      "source_url": "https://www.youtube.com/watch?v=3aVqWaLjqS4"
+    },
+    {
+      "position": 84,
+      "video_id": "FdVuKt_iuSI",
+      "title": "Python Django Tutorial: Full-Featured Web App Part 8 - User Profile and Picture",
+      "source_url": "https://www.youtube.com/watch?v=FdVuKt_iuSI"
+    },
+    {
+      "position": 85,
+      "video_id": "CQ90L5jfldw",
+      "title": "Python Django Tutorial: Full-Featured Web App Part 9 - Update User Profile",
+      "source_url": "https://www.youtube.com/watch?v=CQ90L5jfldw"
+    },
+    {
+      "position": 86,
+      "video_id": "-s7e_Fy6NRU",
+      "title": "Python Django Tutorial: Full-Featured Web App Part 10 - Create, Update, and Delete Posts",
+      "source_url": "https://www.youtube.com/watch?v=-s7e_Fy6NRU"
+    },
+    {
+      "position": 87,
+      "video_id": "acOktTcTVEQ",
+      "title": "Python Django Tutorial: Full-Featured Web App Part 11 - Pagination",
+      "source_url": "https://www.youtube.com/watch?v=acOktTcTVEQ"
+    },
+    {
+      "position": 88,
+      "video_id": "-tyBEsHSv7w",
+      "title": "Python Django Tutorial: Full-Featured Web App Part 12 - Email and Password Reset",
+      "source_url": "https://www.youtube.com/watch?v=-tyBEsHSv7w"
+    },
+    {
+      "position": 89,
+      "video_id": "Sa_kQheCnds",
+      "title": "Python Django Tutorial: Deploying Your Application (Option #1) - Deploy to a Linux Server",
+      "source_url": "https://www.youtube.com/watch?v=Sa_kQheCnds"
+    },
+    {
+      "position": 90,
+      "video_id": "jTYiNjvnHZY",
+      "title": "Python Tutorial: Iterators and Iterables - What Are They and How Do They Work?",
+      "source_url": "https://www.youtube.com/watch?v=jTYiNjvnHZY"
+    },
+    {
+      "position": 91,
+      "video_id": "C3Z9lJXI6Qw",
+      "title": "Python Coding Problem: Creating Your Own Iterators",
+      "source_url": "https://www.youtube.com/watch?v=C3Z9lJXI6Qw"
+    },
+    {
+      "position": 92,
+      "video_id": "Qu3dThVy6KQ",
+      "title": "Python Tutorial: Itertools Module - Iterator Functions for Efficient Looping",
+      "source_url": "https://www.youtube.com/watch?v=Qu3dThVy6KQ"
+    },
+    {
+      "position": 93,
+      "video_id": "goToXTC96Co",
+      "title": "Python Flask Tutorial: Deploying Your Application (Option #1) - Deploy to a Linux Server",
+      "source_url": "https://www.youtube.com/watch?v=goToXTC96Co"
+    },
+    {
+      "position": 94,
+      "video_id": "LUFn-QVcmB8",
+      "title": "Python Flask Tutorial: How to Use a Custom Domain Name for Our Application",
+      "source_url": "https://www.youtube.com/watch?v=LUFn-QVcmB8"
+    },
+    {
+      "position": 95,
+      "video_id": "D2lwk1Ukgz0",
+      "title": "Python Django Tutorial: How to Use a Custom Domain Name for Our Application",
+      "source_url": "https://www.youtube.com/watch?v=D2lwk1Ukgz0"
+    },
+    {
+      "position": 96,
+      "video_id": "Gdys9qPjuKs",
+      "title": "Python Flask Tutorial: How to enable HTTPS with a free SSL/TLS Certificate using Let's Encrypt",
+      "source_url": "https://www.youtube.com/watch?v=Gdys9qPjuKs"
+    },
+    {
+      "position": 97,
+      "video_id": "NhidVhNHfeU",
+      "title": "Python Django Tutorial: How to enable HTTPS with a free SSL/TLS Certificate using Let's Encrypt",
+      "source_url": "https://www.youtube.com/watch?v=NhidVhNHfeU"
+    },
+    {
+      "position": 98,
+      "video_id": "kt3ZtW9MXhw",
+      "title": "Python Django Tutorial: Full-Featured Web App Part 13 - Using AWS S3 for File Uploads",
+      "source_url": "https://www.youtube.com/watch?v=kt3ZtW9MXhw"
+    },
+    {
+      "position": 99,
+      "video_id": "6DI_7Zja8Zc",
+      "title": "Python Django Tutorial: Deploying Your Application (Option #2) - Deploy using Heroku",
+      "source_url": "https://www.youtube.com/watch?v=6DI_7Zja8Zc"
+    },
+    {
+      "position": 100,
+      "video_id": "tb8gHvYlCFs",
+      "title": "Python Requests Tutorial: Request Web Pages, Download Images, POST Data, Read JSON, and More",
+      "source_url": "https://www.youtube.com/watch?v=tb8gHvYlCFs"
+    }
+  ]
+}

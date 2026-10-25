@@ -1,0 +1,425 @@
+{
+  "curriculum_version": "2026.1",
+  "units": 8,
+  "lessons": 50,
+  "syllabus_topics": 148,
+  "projects": 10,
+  "playlist_inventory_records": 100,
+  "verified_video_records": 22,
+  "runnable_examples": {
+    "total": 50,
+    "passed": 50,
+    "results": [
+      {
+        "lesson_id": "py-v2-u1-l01",
+        "passed": true,
+        "expected": "Python turns instructions into useful work.",
+        "actual": "Python turns instructions into useful work.",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u1-l02",
+        "passed": true,
+        "expected": "Python is ready\nTrue",
+        "actual": "Python is ready\nTrue",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u1-l03",
+        "passed": true,
+        "expected": "Hello, World!",
+        "actual": "Hello, World!",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u1-l04",
+        "passed": true,
+        "expected": "Pip-Learn\nReady!",
+        "actual": "Pip-Learn\nReady!",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u1-l05",
+        "passed": true,
+        "expected": "Mira 3",
+        "actual": "Mira 3",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u1-l06",
+        "passed": true,
+        "expected": "340",
+        "actual": "340",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u1-l07",
+        "passed": true,
+        "expected": "str\n19",
+        "actual": "str\n19",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u1-l08",
+        "passed": true,
+        "expected": "Welcome, Asha!",
+        "actual": "Welcome, Asha!",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u1-l09",
+        "passed": true,
+        "expected": "True\n20",
+        "actual": "True\n20",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u1-l10",
+        "passed": true,
+        "expected": "Notebook: 2 × ₹49.50 = ₹99.00",
+        "actual": "Notebook: 2 × ₹49.50 = ₹99.00",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u2-l01",
+        "passed": true,
+        "expected": "True\nTrue",
+        "actual": "True\nTrue",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u2-l02",
+        "passed": true,
+        "expected": "B",
+        "actual": "B",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u2-l03",
+        "passed": true,
+        "expected": "10",
+        "actual": "10",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u2-l04",
+        "passed": true,
+        "expected": "1\n2\n4\n5",
+        "actual": "1\n2\n4\n5",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u2-l05",
+        "passed": true,
+        "expected": "180.00",
+        "actual": "180.00",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u2-l06",
+        "passed": true,
+        "expected": "12\n3, 2, 1, Go",
+        "actual": "12\n3, 2, 1, Go",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u3-l01",
+        "passed": true,
+        "expected": "P\nPython\nPYTHON BASICS",
+        "actual": "P\nPython\nPYTHON BASICS",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u3-l02",
+        "passed": true,
+        "expected": "['review', 'code', 'test']",
+        "actual": "['review', 'code', 'test']",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u3-l03",
+        "passed": true,
+        "expected": "[72, 91, 88]\n79.0",
+        "actual": "[72, 91, 88]\n79.0",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u3-l04",
+        "passed": true,
+        "expected": "x=12, y=7",
+        "actual": "x=12, y=7",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u3-l05",
+        "passed": true,
+        "expected": "['sql']\nFalse",
+        "actual": "['sql']\nFalse",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u3-l06",
+        "passed": true,
+        "expected": "Ravi\n85",
+        "actual": "Ravi\n85",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u3-l07",
+        "passed": true,
+        "expected": "360",
+        "actual": "360",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u4-l01",
+        "passed": true,
+        "expected": ".txt\nnotes.txt",
+        "actual": ".txt\nnotes.txt",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u4-l02",
+        "passed": true,
+        "expected": "alpha\n6\nalpha",
+        "actual": "alpha\n6\nalpha",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u4-l03",
+        "passed": true,
+        "expected": "Asha\n164",
+        "actual": "Asha\n164",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u4-l04",
+        "passed": true,
+        "expected": "Enter whole digits\nValidation finished",
+        "actual": "Enter whole digits\nValidation finished",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u4-l05",
+        "passed": true,
+        "expected": "score must be 0..100",
+        "actual": "score must be 0..100",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u4-l06",
+        "passed": true,
+        "expected": "errors=1",
+        "actual": "errors=1",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u5-l01",
+        "passed": true,
+        "expected": "light on",
+        "actual": "light on",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u5-l02",
+        "passed": true,
+        "expected": "Hello, Neha",
+        "actual": "Hello, Neha",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u5-l03",
+        "passed": true,
+        "expected": "MU SQL",
+        "actual": "MU SQL",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u5-l04",
+        "passed": true,
+        "expected": "500",
+        "actual": "500",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u5-l05",
+        "passed": true,
+        "expected": "developer",
+        "actual": "developer",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u5-l06",
+        "passed": true,
+        "expected": "email sent\nscreen shown",
+        "actual": "email sent\nscreen shown",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u5-l07",
+        "passed": true,
+        "expected": "100",
+        "actual": "100",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u6-l01",
+        "passed": true,
+        "expected": "1 Asha",
+        "actual": "1 Asha",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u6-l02",
+        "passed": true,
+        "expected": "0",
+        "actual": "0",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u6-l03",
+        "passed": true,
+        "expected": "Pen",
+        "actual": "Pen",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u6-l04",
+        "passed": true,
+        "expected": "8",
+        "actual": "8",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u6-l05",
+        "passed": true,
+        "expected": "100",
+        "actual": "100",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u6-l06",
+        "passed": true,
+        "expected": "True\nUse environment variables for credentials",
+        "actual": "True\nUse environment variables for credentials",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u7-l01",
+        "passed": true,
+        "expected": "GET /weather\nRajkot",
+        "actual": "GET /weather\nRajkot",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u7-l02",
+        "passed": true,
+        "expected": "Rajkot 30",
+        "actual": "Rajkot 30",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u7-l03",
+        "passed": true,
+        "expected": "29°C\nUnavailable",
+        "actual": "29°C\nUnavailable",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u7-l04",
+        "passed": true,
+        "expected": "Weekly learning report\npreview only",
+        "actual": "Weekly learning report\npreview only",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u8-l01",
+        "passed": true,
+        "expected": "[20, 40, 60]\n20.0",
+        "actual": "[20, 40, 60]\n20.0",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u8-l02",
+        "passed": true,
+        "expected": "300\n['product', 'sales']",
+        "actual": "300\n['product', 'sales']",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u8-l03",
+        "passed": true,
+        "expected": "{'East': 250.0, 'West': 100.0}",
+        "actual": "{'East': 250.0, 'West': 100.0}",
+        "stderr": ""
+      },
+      {
+        "lesson_id": "py-v2-u8-l04",
+        "passed": true,
+        "expected": "Feb 150\nbar: compare months; line: show trend",
+        "actual": "Feb 150\nbar: compare months; line: show trend",
+        "stderr": ""
+      }
+    ]
+  },
+  "navigation": {
+    "ordered_lessons": [
+      "py-v2-u1-l01",
+      "py-v2-u1-l02",
+      "py-v2-u1-l03",
+      "py-v2-u1-l04",
+      "py-v2-u1-l05",
+      "py-v2-u1-l06",
+      "py-v2-u1-l07",
+      "py-v2-u1-l08",
+      "py-v2-u1-l09",
+      "py-v2-u1-l10",
+      "py-v2-u2-l01",
+      "py-v2-u2-l02",
+      "py-v2-u2-l03",
+      "py-v2-u2-l04",
+      "py-v2-u2-l05",
+      "py-v2-u2-l06",
+      "py-v2-u3-l01",
+      "py-v2-u3-l02",
+      "py-v2-u3-l03",
+      "py-v2-u3-l04",
+      "py-v2-u3-l05",
+      "py-v2-u3-l06",
+      "py-v2-u3-l07",
+      "py-v2-u4-l01",
+      "py-v2-u4-l02",
+      "py-v2-u4-l03",
+      "py-v2-u4-l04",
+      "py-v2-u4-l05",
+      "py-v2-u4-l06",
+      "py-v2-u5-l01",
+      "py-v2-u5-l02",
+      "py-v2-u5-l03",
+      "py-v2-u5-l04",
+      "py-v2-u5-l05",
+      "py-v2-u5-l06",
+      "py-v2-u5-l07",
+      "py-v2-u6-l01",
+      "py-v2-u6-l02",
+      "py-v2-u6-l03",
+      "py-v2-u6-l04",
+      "py-v2-u6-l05",
+      "py-v2-u6-l06",
+      "py-v2-u7-l01",
+      "py-v2-u7-l02",
+      "py-v2-u7-l03",
+      "py-v2-u7-l04",
+      "py-v2-u8-l01",
+      "py-v2-u8-l02",
+      "py-v2-u8-l03",
+      "py-v2-u8-l04"
+    ],
+    "next_links_valid": true
+  },
+  "errors": [],
+  "warnings": [
+    "Video durations are intentionally not claimed because they were not independently verified."
+  ],
+  "status": "pass"
+}

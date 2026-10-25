@@ -1,0 +1,76 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Testing & Quality
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# NiceGUI / Starlette local browser session data
+.nicegui/
+
+# Local databases and backups (exclude personal student and test data)
+data/*.db
+data/*.bak*
+data/*.sqlite3
+
+# Local test scratch captures and temporary debug assets
+brain_artifacts/
+
+# Deployment & export bundles
+sites/
+*.tar.gz
+*.zip
+
+# Environment & secrets
+.env
+.env.local
+*.secret
+
+# Logs
+*.log
+
+# Operating System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor directories
+.idea/
+.vscode/
+*.swp
+*.swo
