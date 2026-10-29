@@ -251,11 +251,11 @@ def render_quiz_screen(module_id: int):
                         ui.label(curr_q.question).classes("font-serif text-2xl sm:text-3xl text-[#161616] leading-snug")
 
                     # Answer Options Radio Group
-                    with ui.column().classes("w-full gap-2.5"):
+                    with ui.column().classes("w-full"):
                         radio = ui.radio(
                             curr_q.options,
                             value=curr_ans
-                        ).props("keep-color").classes("w-full gap-3 text-sm")
+                        ).props("keep-color").classes("quiz-options-group w-full")
 
                         def on_select(e):
                             state["answers"][curr_q.id] = e.value

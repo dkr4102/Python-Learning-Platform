@@ -764,6 +764,74 @@ textarea.pip-editor-native {
   gap: 1.5rem;
 }
 
+/* Check & Quiz Stage Options Group */
+.check-card .q-option-group,
+.quiz-options-group {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 12px !important;
+  width: 100% !important;
+}
+
+.check-card .q-option-group .q-radio,
+.quiz-options-group .q-radio {
+  display: flex !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 14px 18px !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 8px !important;
+  background-color: #FFFFFF !important;
+  transition: all 150ms ease !important;
+  cursor: pointer !important;
+  box-sizing: border-box !important;
+  align-items: center !important;
+}
+
+.check-card .q-option-group .q-radio:hover,
+.quiz-options-group .q-radio:hover {
+  background-color: #F8FAFC !important;
+  border-color: #4F83BC !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04) !important;
+}
+
+.check-card .q-option-group .q-radio[aria-checked="true"],
+.check-card .q-option-group .q-radio:has(input:checked),
+.check-card .q-option-group .q-radio:has(.text-primary),
+.quiz-options-group .q-radio[aria-checked="true"],
+.quiz-options-group .q-radio:has(input:checked),
+.quiz-options-group .q-radio:has(.text-primary) {
+  background-color: #F0F6FC !important;
+  border-color: #4F83BC !important;
+  box-shadow: 0 0 0 1px #4F83BC inset !important;
+}
+
+.check-card .q-option-group .q-radio .q-radio__inner,
+.quiz-options-group .q-radio .q-radio__inner {
+  font-size: 20px !important;
+  color: #6E8098 !important;
+  flex-shrink: 0 !important;
+}
+
+.check-card .q-option-group .q-radio[aria-checked="true"] .q-radio__inner,
+.check-card .q-option-group .q-radio:has(input:checked) .q-radio__inner,
+.check-card .q-option-group .q-radio:has(.text-primary) .q-radio__inner,
+.quiz-options-group .q-radio[aria-checked="true"] .q-radio__inner,
+.quiz-options-group .q-radio:has(input:checked) .q-radio__inner,
+.quiz-options-group .q-radio:has(.text-primary) .q-radio__inner {
+  color: #4F83BC !important;
+}
+
+.check-card .q-option-group .q-radio .q-radio__label,
+.quiz-options-group .q-radio .q-radio__label {
+  font-family: var(--font-sans) !important;
+  font-size: 0.9375rem !important;
+  color: var(--text-primary) !important;
+  line-height: 1.5 !important;
+  padding-left: 10px !important;
+  flex-grow: 1 !important;
+}
+
 .check-option-item {
   width: 100%;
   padding: 12px 16px;

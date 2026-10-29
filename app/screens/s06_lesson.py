@@ -615,7 +615,7 @@ def render_lesson_screen(module_id: int, lesson_id: str, stage: str = None):
                             radio_group = ui.radio(
                                 curr_q.options,
                                 value=current_saved_ans.get("choice_text"),
-                            ).props("dense").classes("w-full gap-2")
+                            ).classes("quiz-options-group w-full")
 
                             # Feedback Banner (Hidden initially unless previously attempted)
                             feedback_box = ui.column().classes("w-full hidden")

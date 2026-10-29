@@ -3,11 +3,15 @@ End-to-end integration and browser tests for the definitive Pip Learn lesson wor
 Tests the complete 5-stage learning journey:
 Read → Watch → Experiment → Practice → Check → Certification
 """
+import os
 import time
 from playwright.sync_api import sync_playwright
 import pytest
 from app.database.connection import get_db
 from app.database.models import LessonActivity, LessonCompletion
+
+PORT = os.environ.get("PORT", "8081")
+BASE_URL = f"http://localhost:{PORT}"
 
 
 def test_complete_lesson_journey():
@@ -17,7 +21,7 @@ def test_complete_lesson_journey():
         page = context.new_page()
 
         # Step 0: Authenticate
-        page.goto("http://localhost:8080/login", wait_until="networkidle")
+        page.goto(f"{BASE_URL}/login", wait_until="networkidle")
         page.wait_for_timeout(800)
         page.locator("input[placeholder*='priya']").fill("priya")
         page.locator("input[type='password']").fill("Priya123!")
@@ -25,7 +29,7 @@ def test_complete_lesson_journey():
         page.wait_for_timeout(1000)
 
         # Step 1: Open Lesson 1
-        page.goto("http://localhost:8080/module/1/lesson/py-v2-u1-l01", wait_until="networkidle")
+        page.goto(f"{BASE_URL}/module/1/lesson/py-v2-u1-l01", wait_until="networkidle")
         page.wait_for_timeout(1000)
 
         # Verify page title and header

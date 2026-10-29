@@ -10,6 +10,9 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
+from dotenv import load_dotenv
+load_dotenv()
+
 from nicegui import app, ui
 from app.config import ARTWORKS_DIR, BASE_DIR
 from app.database.connection import init_db
